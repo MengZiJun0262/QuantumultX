@@ -1,3 +1,4 @@
+const version = 'V2.0.127';
 const mainConfig = {
     isDebug: !1,
     author: "ddgksf2013",
