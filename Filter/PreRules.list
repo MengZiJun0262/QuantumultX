@@ -1,6 +1,16 @@
-host, ad.12306.cn, direct
-host, sdkapp.uve.weibo.com, direct
-ip-cidr, 180.76.76.200/32, reject
-ip-cidr, 123.207.209.39/32, reject
-ip-cidr, 123.207.209.60/32, reject
-ip-cidr, 139.199.240.12/32, reject
+# local
+IP-CIDR, 10.0.0.0/8, DIRECT
+IP-CIDR, 172.16.0.0/12, DIRECT
+IP-CIDR, 192.168.0.0/16, DIRECT
+IP-CIDR, 127.0.0.0/8, DIRECT
+IP-CIDR, 224.0.0.0/24, DIRECT
+
+HOST, ad.12306.cn, DIRECT
+
+HOST, sdkapp.uve.weibo.com, DIRECT
+
+IP-CIDR, 180.76.76.200/32, REJECT
+
+IP-CIDR, 123.207.209.39/32, REJECT
+IP-CIDR, 123.207.209.60/32, REJECT
+IP-CIDR, 139.199.240.12/32, REJECT
